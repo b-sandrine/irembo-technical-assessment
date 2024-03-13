@@ -1,0 +1,36 @@
+.star {
+  color: red;
+  margin-left: 2px;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.country-code-select {
+  margin-bottom: 10px; /* Adjust as needed */
+  width: 80px !important;
+}
+
+.error{
+  color: red;
+  font-size: 18px;
+}
+
+select, input, textarea {
+  width: 500px !important;
+}
+
+button {
+  margin-right: 100px !important;
+  margin-left: 800px !important;
+  width: 150px !important;
+  align-items: center !important;
+  margin-bottom: 100px !important;
+}
