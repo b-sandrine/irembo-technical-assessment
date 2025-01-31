@@ -1,0 +1,54 @@
+section {
+    margin: 2rem 0;
+
+}
+
+.section-header {
+    margin-bottom: 1rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.main-header-flex {
+    display: flex;
+    align-items: center;
+}
+
+.main-header-flex h2 {
+    margin-left: 5px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.main-header-flex .icon {
+    font-size: 24px;
+    color: #3b82f6;
+    font-weight: 500;
+}
+
+.handle-submit {
+    color: #ffffff;
+    background-color: #1d4ed8;
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    height: 60px;
+    width: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+.input {
+    outline: none;
+    padding: 15px 8px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+}

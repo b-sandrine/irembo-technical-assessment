@@ -1,3 +1,3 @@
 ## Description
 
-Both frontend and backend for the project
+Both frontend and backend for the irembo technical assessment

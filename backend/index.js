@@ -7,7 +7,7 @@ const nodemailer = require('nodemailer')
 require('dotenv').config()
 
 const app = express()
-const port = process.env.PORT || 6000 // Choose any port you prefer
+const port = process.env.PORT || 3000 // Choose any port you prefer
 
 app.use(bodyParser.json())
 app.use(cors())
@@ -56,7 +56,6 @@ app.post('/api/v1/registerDetails', (req, res) => {
       <p>Citizenship: ${citizenship}</p>
       <p>National ID: ${nationalID}</p>
       <p>Passport ID: ${passportNumber}</p>
-      <p>Telephone: ${countryCode} ${phoneNumber}</p>
       <p>Email: ${email}</p>
       <br>
       <p><strong>Business Details:</strong></p>
